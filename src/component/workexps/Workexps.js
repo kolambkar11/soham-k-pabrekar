@@ -42,7 +42,7 @@ const Workexps = ({ resume }) => {
                     <a
                       href={exp.view_playlist}
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       View Work
                     </a>

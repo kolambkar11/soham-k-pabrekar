@@ -13,7 +13,7 @@ const Downloadresume = () => {
       </p>
       <a
         href={pdf}
-        rel="noreferrer"
+        rel="noopener noreferrer"
         target="_blank"
         className="w3-button w3-black w3-round-large"
       >
@@ -27,7 +27,7 @@ const Downloadresume = () => {
       </p>
       <a
         href={coverletter}
-        rel="noreferrer"
+        rel="noopener noreferrer"
         target="_blank"
         className="w3-button w3-black w3-round-large"
       >
@@ -41,7 +41,7 @@ const Downloadresume = () => {
       </p>
       <a
         href="https://www.instagram.com/sohumsangitakrishnakant"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         target="_blank"
         className="w3-button w3-black w3-round-large "
       >
@@ -49,7 +49,7 @@ const Downloadresume = () => {
       </a>
       <a
         href="https://www.youtube.com/@SooThatFilms"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         target="_blank"
         className="w3-button w3-black w3-round-large w3-margin-left"
       >
@@ -57,7 +57,7 @@ const Downloadresume = () => {
       </a>
       <a
         href="https://www.instagram.com/soothatfilms"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         target="_blank"
         className="w3-button w3-black w3-round-large  w3-margin-left"
       >
