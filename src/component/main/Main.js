@@ -6,7 +6,7 @@ import { useState } from "react";
 import Footer from "../footer/Footer";
 
 const Main = () => {
-  const [resume, setResume] = useState({ resumeData });
+  const [resume] = useState({ resumeData });
 
   return (
     <>

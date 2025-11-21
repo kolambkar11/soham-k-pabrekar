@@ -6,7 +6,8 @@ const Workexps = ({ resume }) => {
     <>
       <div className="w3-container w3-white w3-margin-bottom w3-card">
         <h2 className="w3-text-grey w3-padding-16">
-          <i className="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-blue-grey"></i>Work Experience
+          <i className="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-blue-grey"></i>
+          Work Experience
         </h2>
         {resume.resumeData.profile.workexprience.map((exp, i) => {
           return (
@@ -26,14 +27,23 @@ const Workexps = ({ resume }) => {
                 <div className="w3-col s6 w3-right-align">
                   <h6 className="w3-text-blue-grey">
                     <i className="fa fa-calendar fa-fw w3-margin-right"></i>
-                    {exp.from} - <span className="w3-tag w3-blue-grey w3-round">{exp.to}</span>
+                    {exp.from} -{" "}
+                    <span className="w3-tag w3-blue-grey w3-round">
+                      {exp.to}
+                    </span>
                   </h6>
                 </div>
-                <Responsibilities responsbilities={exp.roles_responsibilities} />
+                <Responsibilities
+                  responsbilities={exp.roles_responsibilities}
+                />
 
                 {exp.view_playlist ? (
                   <b>
-                    <a href={exp.view_playlist} target="_blank">
+                    <a
+                      href={exp.view_playlist}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       View Work
                     </a>
                   </b>
