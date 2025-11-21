@@ -1,9 +1,6 @@
 import React from "react";
 import Workexp from "../workexps/Workexps";
 import Education from "../education/Education";
-
-import Reels from "../projects/Reelsyt";
-import Youtube from "../projects/Youtube";
 import Achievements from "../achievements/Achievements";
 
 const Twothird = ({ resume }) => {

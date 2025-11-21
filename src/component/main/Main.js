@@ -7,9 +7,6 @@ import Footer from "../footer/Footer";
 
 const Main = () => {
   const [resume, setResume] = useState({ resumeData });
-  const set = () => {
-    setResume(resumeData);
-  };
 
   return (
     <>
